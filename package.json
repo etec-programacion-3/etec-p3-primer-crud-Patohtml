@@ -1,0 +1,29 @@
+{
+  "name": "tartitadedurazno",
+  "version": "1.0.0",
+  "description": "first crud",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etec-programacion-3/etec-p3-primer-crud-Patohtml.git"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Lucas Cruceño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etec-programacion-3/etec-p3-primer-crud-Patohtml/issues"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "npm": "^10.6.0",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
